@@ -1,0 +1,53 @@
+.header{
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 120px 120px
+}
+.fline{
+    display: flex;
+    justify-content: space-between;
+    flex-basis:200px;
+    margin-bottom: 70px;
+}
+.hright{
+    display: flex;
+    gap:16px;
+    align-items: center;
+}
+.hlogo{
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    flex: 1;
+}
+.hright{
+    flex: 1;
+    justify-content: center;
+}
+.sline{
+    display: flex;
+}
+.webname{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+.sign{
+    background-color: #3882f6;
+    width:70px;
+    border-radius: 25px;
+    text-align: center;
+    padding:4px 8px;
+    font-weight: 700;
+}
+.htext{
+    flex:1;
+}
+.himage{
+    flex: 1;
+}
