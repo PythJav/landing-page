@@ -1,6 +1,7 @@
-html{
-    height: 100%;
-    box-sizing: border-box;
+html{ 
+    margin: 0;
+    padding: 0;
+  
 }
 body{
     display: flex;
@@ -9,13 +10,14 @@ body{
     min-height:100%;
 }
 .header,.footer{
+    /* flex:0.5; */
     background-color: #1f2937;
     color: white;
 
 }
 .header{
     
-    padding: 20px 120px 120px
+    padding: 20px 60px
 }
 .footer{
     /* justify-content: space-between; */
@@ -26,7 +28,7 @@ body{
 .fline{
     display: flex;
     justify-content: space-between;
-    flex-basis:200px;
+    /* flex-basis:200px; */
     margin-bottom: 70px;
 }
 .hright{
@@ -77,18 +79,19 @@ body{
 .allbody{
     display: flex;
     flex-direction: column;
-    flex: 1;
-    justify-content: space-between;
+    flex-grow: 1;
+    min-height: 100%;
+    /* flex: 1; */
+    /* justify-content: space-between; */
     /* align-items:; */
 }
 .topcon,.midcon,.botcon{
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 flex-direction: column;
-flex:1 1 0;
-margin: 0;
-padding:0;
+flex-grow: 1;
+/* flex-basis: 0; */
 }
 .textbox{
     display: flex;
@@ -126,6 +129,8 @@ padding:0;
     border-radius: 25px;
     align-items: center;
     color: white;
+    padding:30px 0;
+    margin:20px 0;
 }
 .box{
     display: flex;
